@@ -164,6 +164,11 @@ section .header {
     padding: 40px 0
 }
 
+.section-paddingupper {
+    padding: 40px 0
+}
+
+
 .section-border {
     border-bottom: 1px solid #E6E9EA
 }
@@ -1045,5 +1050,7 @@ body.modal-open {
 }
 
 .modal-body {
-    padding: 25px
+    /* padding: 25px; */
+    max-height: calc(100% - 120px);
+    overflow-y: scroll;
 }
